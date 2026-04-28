@@ -1,30 +1,36 @@
-# Portal de login Wi-Fi com autenticação
+# 📶 Wi-Fi Authentication Portal
 
-Tela de login com autenticação de usuário para acesso ao Wi-Fi de uma instituição de ensino, utilizando credenciais institucionais.
+Login interface with user authentication for accessing an institutional Wi-Fi network, using academic credentials.
 
-## Preview do projeto
+## 📸 Project Preview
 
-![Preview do projeto](img/preview.png)
+![Project Preview](img/preview.png)
 
-## Tecnologias utilizadas
+## 🛠️ Technologies
 
 - HTML
 - CSS (inline)
 
-## Objetivo do projeto
+## ⚙️ Features
 
-Desenvolver uma interface com autenticação simples seguindo requisitos específicos, incluindo a utilização de CSS no arquivo HTML.
+- User login interface
+- Credential-based authentication simulation
+- Clean and simple layout
 
-## Contexto
+## 🎯 Project Goal
 
-Projeto desenvolvido no meio acadêmico para simular um sistema de autenticação para o acesso à rede Wi-Fi.
+Develop a login interface with basic authentication, following specific requirements such as using inline CSS within the HTML file.
 
-## Como usar
+## 📚 Context
 
-1. Insira suas credenciais institucionais.
-2. Clique no botão de login.
-3. O sistema simula o acesso à rede Wi-Fi.
+Academic project created to simulate an authentication system for accessing a Wi-Fi network in an educational institution.
 
-## Autor
+## 🚀 How to Use
+
+1. Enter your institutional credentials  
+2. Click the login button  
+3. The system simulates Wi-Fi network access  
+
+## 👨‍💻 Author
 
 Luis Francisco
