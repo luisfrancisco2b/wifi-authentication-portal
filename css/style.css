@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: helvetica;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #0066cc, #003366);
+  padding: 20px;
+}
+
+.containerLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  background: white;
+  max-width: 600px;
+  margin: 5% auto;
+  padding: 15px 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  text-align: center;
+}
+
+.containerLogin h2 {
+  margin: 0 0 20px 0;
+  color: #003366;
+}
+
+.label {
+  width: 100%;
+  color: black;
+  font-size: 20px;
+  margin: 20px 0 0 6px;
+  display: block;
+  text-align: left;
+}
+
+.containerLogin img {
+  width: 30%;
+  height: 15%;
+  margin: 0 0 20px 0;
+}
+
+form input[type="text"],
+form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 0 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form input[type="submit"] {
+  width: 100px;
+  padding: 12px;
+  margin: 15px 0 0 0;
+  border: none;
+  background-color: #0066cc;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form input[type="submit"]:hover {
+  background: #0055aa;
+}
+
+/* Moblie responsive */
+@media (max-width: 480px) {
+  .containerLogin {
+    padding: 20px;
+  }
+
+  .containerLogin img {
+    width: 60%;
+    height: 30%;
+  }
+
+  form input[type="submit"] {
+    font-size: 14px;
+  }
+}
