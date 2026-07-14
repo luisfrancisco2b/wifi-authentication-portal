@@ -1,3 +1,4 @@
+/* Reset CSS */
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +12,7 @@ body {
   padding: 20px;
 }
 
+/* main */
 .containerLogin {
   display: flex;
   justify-content: center;
@@ -24,6 +26,29 @@ body {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   width: 90%;
   text-align: center;
+}
+
+.campo-senha {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.btn-toggle {
+  position: absolute;
+  right: 10px;
+  top: 25px;
+  background: none;
+  border: none;
+  color: #0066cc;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.campo-senha input {
+  flex: 1;
+  padding-right: 70px;
 }
 
 .containerLogin h2 {
@@ -47,8 +72,11 @@ body {
 }
 
 form input[type="text"],
-form input[type="password"] {
+form input[type="password"],
+.campo-senha input{
   width: 100%;
+  max-width: 400px;
+  height: 50px;
   padding: 10px;
   margin: 10px 0 0 0;
   border: 1px solid #ccc;

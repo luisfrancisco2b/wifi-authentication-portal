@@ -17,11 +17,17 @@
     <h2>Rede FATEPI/FAESPI</h2>
 
     <form method="post" action="$PORTAL_ACTION$">
+      <!-- Matrícula -->
       <label class="label">Matrícula</label>
       <input placeholder="Matrícula" name="auth_user" id="matricula" type="text" />
 
+      <!-- CPF -->
       <label class="label">CPF</label>
-      <input placeholder="CPF" name="auth_pass" id="cpf" type="password" />
+      <div class="campo-senha">
+        <input placeholder="CPF" name="auth_pass" id="cpf" type="password" />
+
+        <button type="submit" id="btn-toggle-senha" class="btn-toggle">👁️</button>
+      </div>
 
       <input name="redirurl" type="hidden" value="$PORTAL_REDIRURL$" />
       <input name="zone" type="hidden" value="$PORTAL_ZONE$" />
