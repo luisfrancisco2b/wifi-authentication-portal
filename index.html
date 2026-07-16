@@ -5,18 +5,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tela de Login</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css" />
   <script src="js/app.js" defer></script>
 </head>
 
 <body>
-
   <main class="containerLogin">
-
     <img src="img/FATEPI-FAESPI-2-2.png" alt="Logo" width="100" height="100" />
     <h2>Rede FATEPI/FAESPI</h2>
 
-    <form method="post" action="$PORTAL_ACTION$">
+    <form>
       <!-- Matrícula -->
       <label class="label">Matrícula</label>
       <input placeholder="Matrícula" name="auth_user" id="matricula" type="text" />
@@ -26,16 +24,21 @@
       <div class="campo-senha">
         <input placeholder="CPF" name="auth_pass" id="cpf" type="password" />
 
-        <button type="submit" id="btn-toggle-senha" class="btn-toggle">👁️</button>
+        <button type="button" id="btn-toggle-senha" class="btn-toggle">
+          Mostrar CPF
+        </button>
       </div>
 
-      <input name="redirurl" type="hidden" value="$PORTAL_REDIRURL$" />
-      <input name="zone" type="hidden" value="$PORTAL_ZONE$" />
-      <input name="accept" type="submit" value="Continue" />
+      <!-- <input name="redirurl" type="hidden" value="$PORTAL_REDIRURL$" />
+      <input name="zone" type="hidden" value="$PORTAL_ZONE$" /> -->
+      <button type="submit" name="accept" id="btn-continue" class="btn-submit">
+        <span id="btn-text">Continue</span>
+        <div id="spinner" class="spinner class-hidden"></div>
+      </button>
     </form>
-
   </main>
 
+  <!-- method="post" action="$PORTAL_ACTION$" -->
 </body>
 
 </html>

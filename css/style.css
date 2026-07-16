@@ -73,7 +73,7 @@ body {
 
 form input[type="text"],
 form input[type="password"],
-.campo-senha input{
+.campo-senha input {
   width: 100%;
   max-width: 400px;
   height: 50px;
@@ -83,21 +83,51 @@ form input[type="password"],
   border-radius: 6px;
 }
 
-form input[type="submit"] {
-  width: 100px;
-  padding: 12px;
-  margin: 15px 0 0 0;
+.campo-senha button {
+  color: #333;
+  font-size: 0.7rem;
+  text-align: center;
+  top: 27px;
+}
+
+.campo-senha span {
+  margin-left: 0.3rem;
+}
+
+.btn-submit {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 450px;
+  height: 55px;
+  margin-top: 15px;
   border: none;
   background-color: #0066cc;
   color: white;
-  font-size: 16px;
+  font-weight: bold;
+  font-size: 0.9rem;
   border-radius: 6px;
   cursor: pointer;
-  transition: background 0.3s;
+  transition:
+    transform 0.3s,
+    background 0.3s,
+    opacity 0.3s;
 }
 
-form input[type="submit"]:hover {
-  background: #0055aa;
+.btn-submit:hover {
+  transform: translateY(-5px);
+  background-color: #0055aa;
+}
+
+.btn-submit:active {
+  transform: scale(0.91);
+}
+
+.btn-submit:disabled {
+  background-color: #5599dd;
+  cursor: not-allowed;
 }
 
 /* Moblie responsive */

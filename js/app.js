@@ -1,11 +1,12 @@
 // 1 - Select the form element using querySelector
-const form = document.querySelector("form");
+// const form = document.querySelector("form");
 const inputMatricula = document.querySelector("#matricula");
 const inputCpf = document.querySelector("#cpf");
 const btnToggleSenha = document.querySelector("#btn-toggle-senha");
+const btnContinue = document.querySelector("#btn-continue");
 
 // 2 - Add an event listener for the form submission
-form.addEventListener("submit", function (e) {
+btnContinue.addEventListener("click", function (e) {
   // Basic validation: check if either fields is empty (ignoring whitespacing)
   if (inputMatricula.value.trim() === "" || inputCpf.value.trim() === "") {
     // Prevent the form from submitting and reloading the page
@@ -20,9 +21,9 @@ form.addEventListener("submit", function (e) {
 btnToggleSenha.addEventListener("click", function () {
   if (inputCpf.type === "password") {
     inputCpf.type = "text";
-    btnToggleSenha.textContent = "🙈";
+    btnToggleSenha.textContent = "Esconder CPF";
   } else {
-    inputCpf.type = "pasword";
-    btnToggleSenha.textContent = "👁️";
+    inputCpf.type = "password";
+    btnToggleSenha.textContent = "Mostrar CPF";
   }
 });
