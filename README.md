@@ -53,6 +53,32 @@ Academic project developed for the **Decision Tools** course under **Professor S
 
 ---
 
+## 📦 How to Run the Project Locally
+
+### 1. Clone this repository:
+
+```bash
+git clone https://github.com/luisfrancisco2b/wifi-authentication-portal
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd wifi-authentication-portal
+```
+
+### 3. 🚀 Running the Project
+
+```bash
+Since this is a front-end application, you can run it directly.
+
+Open the `index.html` file in your browser, or run it using an extension like **Live Server** in VS Code:
+
+http://127.0.0.1:5500/index.html
+```
+
+---
+
 ## 👨‍💻 Author
 
 Luis Francisco
