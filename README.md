@@ -1,35 +1,57 @@
-# 📶 Wi-Fi Authentication Portal
+# 📶 Institutional Wi-Fi Access Redesign
 
-Login interface with user authentication for accessing an institutional Wi-Fi network, using academic credentials.
+Modernized login interface with user authentication and dynamic interactions for accessing the FATEPI/FAESPI institutional Wi-Fi network.
 
-## 📸 Project Preview
+## 📸 Project Preview & Evolution
 
-![Project Preview](img/preview.png)
+Showcasing the visual and functional evolution of the login interface:
+
+<p align="center">
+  <img src="/img/preview-before.png" alt="Preview Before" width="65%">
+  <img src="img/preview-now.png" alt="Preview Now" width="28%" style="margin-left: 2%;">
+</p>
+
+---
 
 ## 🛠️ Technologies
 
-- HTML
-- CSS (inline)
+- HTML5
+- CSS3 (External stylesheet & native `@keyframes` animations)
+- JavaScript (ES6+ DOM Manipulation)
+
+---
 
 ## ⚙️ Features
 
-- User login interface
-- Credential-based authentication simulation
-- Clean and simple layout
+- **Responsive & Clean Layout:** Modern, centered interface fully adapted for mobile devices (Mobile-First).
+- **Password Visibility Toggle:** A button that changes from "Mostrar CPF" to "Esconder CPF" dynamically, helping users avoid typos.
+- **Button Micro-interactions:** Smooth physical feedback using 3D transitions on hover (`translateY`) and click (`scale`).
+- **Loading Spinner Simulation:** Displays a 2-second spinning animation before submitting, disabling the submit button to prevent double-clicks.
+- **Form Validation:** Basic checks preventing the user from submitting empty fields.
+
+---
 
 ## 🎯 Project Goal
 
-Develop a login interface with basic authentication, following specific requirements such as using inline CSS within the HTML file.
+Modernize the login portal using best practices of UX/UI, splitting the code into dedicated HTML, CSS, and JS files, while adding seamless feedback and interactive states.
+
+---
 
 ## 📚 Context
 
-Academic project created to simulate an authentication system for accessing a Wi-Fi network in an educational institution.
+Academic project developed for the **Decision Tools** course under **Professor Shalton Viana**, simulating a secure authentication diagnosis and portal access for the FATEPI/FAESPI network.
+
+---
 
 ## 🚀 How to Use
 
-1. Enter your institutional credentials  
-2. Click the login button  
-3. The system simulates Wi-Fi network access  
+1. Enter your academic credentials (Matrícula & CPF).
+2. Use the "Mostrar CPF" button to double-check your input if needed.
+3. Click the **Continue** button.
+4. Watch the loading spinner trigger for 2 seconds.
+5. The system will alert you and simulate the successful redirect.
+
+---
 
 ## 👨‍💻 Author
 
