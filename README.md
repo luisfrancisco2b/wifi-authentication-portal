@@ -8,7 +8,7 @@ Showcasing the visual and functional evolution of the login interface:
 
 <p align="center">
   <img src="/img/preview-before.png" alt="Preview Before" width="65%">
-  <img src="img/preview-now.png" alt="Preview Now" width="28%" style="margin-left: 2%;">
+  <img src="img/preview-now.png" alt="Preview Now" width="65%" style="margin-left: 2%;">
 </p>
 
 ---
